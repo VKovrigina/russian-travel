@@ -1,0 +1,10 @@
+.page {
+  font-family: 'Inter', sans-serif;
+  height: max-content;
+  background-color: #2a2c2f;
+  position: relative;
+}
+
+div, h1, h2, header, section {
+  border: white 1px solid;
+}
