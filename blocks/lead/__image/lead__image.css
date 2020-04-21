@@ -1,5 +1,6 @@
 .lead__image {
-  margin-top: 60px;
-  background-size: 50% 50%;
+  margin-top: 63px;
   padding: 0;
+  width: 100%;
+  height: auto;
 }
