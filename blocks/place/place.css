@@ -4,3 +4,18 @@
 @import url(./__link/place__link.css);
 @import url(./__image/place__image.css);
 @import url(./__paragraph/place__paragraph.css);
+
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-row-gap: 40px;
+  grid-column-gap: 14px;
+  margin-bottom: 84px;
+  max-height: 660px;
+  /*grid-template-areas:
+    "title website"
+    "img paragraph_top"
+    "img paragraph_bottom"*/
+
+}
