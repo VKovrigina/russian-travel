@@ -16,18 +16,18 @@
 
 @media screen and (max-width: 1280px) {
   .header {
-   margin: 28px 48px 0;
+   margin: 32px 39px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-   margin: 28px 24px 0;
+   margin: 28px 15px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
-   margin: 16px 16px 0;
+   margin: 16px 7px 0;
   }
 }

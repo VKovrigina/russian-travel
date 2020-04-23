@@ -1,5 +1,11 @@
 .content {
   max-width: 1280px;
   position: relative;
-  margin: 0 auto;
+  margin: 4px auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+   margin: 0 auto 0;
+  }
 }

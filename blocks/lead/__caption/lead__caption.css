@@ -12,3 +12,16 @@
   padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .lead__caption {
+   margin-left: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+   margin-left: 6px;
+  }
+}
+
+

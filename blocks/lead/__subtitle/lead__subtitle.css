@@ -6,6 +6,18 @@
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  margin: 23px 172px 0;
+  /*margin: 23px 172px 0;*/
+  /*margin: 23px calc((100% - 640px)/2) 0;*/
+  margin: 23px calc((100% - 640px)/2) 0;
   padding: 0;
 }
+
+@media screen and (max-width: 520px) {
+  .lead__subtitle {
+    margin: 12px calc((100% - 288px)/2) 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+
