@@ -8,5 +8,25 @@
   color: #fff;
   text-align: center;
   margin: 0 132px;
-  padding: 6px 0 0;
+  padding: 1px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    margin: 0 152px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .lead__title {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
 }
