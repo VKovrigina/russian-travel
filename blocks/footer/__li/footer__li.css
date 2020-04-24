@@ -1,0 +1,11 @@
+.footer__li {
+  text-decoration: none;
+  display: inline;
+}
+
+@media screen and (max-width: 620px) {
+  .footer__li {
+    display: block;
+    margin-bottom: 32px;
+  }
+}

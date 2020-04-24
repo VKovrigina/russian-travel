@@ -7,7 +7,15 @@
 
 @media screen and (max-width: 1024px) {
   .lead__image {
-   max-height: 567px
+   max-height: 567px;
+   width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+   width: 100%;
+   margin-top: 66px;
   }
 }
 

@@ -15,13 +15,13 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-   margin: 93px /*39px*/ 0 0;
+   margin: 93px 0 6px 10px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-   margin: 93px /*12px*/ 0 0;
+   margin: 93px 0 0 12;
   }
 }
 

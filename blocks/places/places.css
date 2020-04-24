@@ -1,4 +1,26 @@
 .places {
   position: relative;
-  margin: 94px 147px 0;
+  /*margin: 94px 147px 0;*/
+  width: calc(100% - 294px);
+  margin-top: 94px;
+}
+
+@media screen and (max-width: 1200px) {
+  .places {
+    width: calc(100% - 96px);
+    margin-top: 115px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .places {
+    width: calc(100% - 30px);
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .places {
+    width: 100%;
+  }
 }
