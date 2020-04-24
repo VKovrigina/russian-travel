@@ -2,10 +2,15 @@
   max-width: 1280px;
   position: relative;
   margin: 4px auto 0;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 1024px) {
   .content {
    margin: 0 auto 0;
+   max-width: 928px;
   }
 }

@@ -7,19 +7,20 @@
   max-width: 984px;
   display: flex;
   justify-content: center;
+  align-items: center;
   position: relative;
   margin: 0 auto;
   flex-direction: column;
   margin-top: 56px;
 }
-
+/*
 @media screen and (max-width: 1024px) {
   .lead {
    padding: 0 40px 0;
   }
-}
+}*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .lead {
    padding: 0;
    margin-top: 45px;

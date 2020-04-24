@@ -10,6 +10,7 @@
   margin-top: 9px;
   margin: 9px 0 0;
   padding: 0;
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 768px) {
