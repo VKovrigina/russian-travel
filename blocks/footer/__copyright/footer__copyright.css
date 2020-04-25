@@ -10,11 +10,11 @@
   padding: 0 0 14px 0;
 }
 
-@media screen and (max-width: 1024px) {
+/*@media screen and (max-width: 1024px) {
   .footer__copyright {
     margin-right: 37px;
   }
-}
+}*/
 
 @media screen and (max-width: 620px) {
   .footer__copyright {

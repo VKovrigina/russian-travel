@@ -5,25 +5,25 @@
 .cover {
   position: relative;
   margin: 4px 48px 0 ;
-  height: 740px;
+  /*height: 740px;*/
   width: calc(100% - 96px);
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100%;
-    height: 640px;
+    /*height: 640px;*/
     margin: 57px 0 0 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    height: 480px;
+    /*height: 480px;*/
     margin-top: 6px;
   }
 }
-
+/*
 @media screen and (max-width: 620px) {
   .cover {
     height: 357px;
@@ -34,5 +34,5 @@
   .cover {
     height: 200px;
   }
-}
+}*/
 

@@ -1,6 +1,6 @@
 .page {
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
-  height: max-content;
+  /*height: max-content;*/
   background-color: #2a2c2f;
   position: relative;
   -moz-osx-font-smoothing: grayscale;
@@ -8,8 +8,29 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+  padding-top: 28px;
 }
-/*
-div, h1, h2, header, section, main {
+
+div, h1, h2, header, section, main, footer {
   border: green 1px solid;
-}*/
+}
+
+@media screen and (max-width: 1280px) {
+  .page {
+   /*margin: 32px 39px 0;*/
+   padding-top: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+   /*margin: 28px 15px 0;*/
+   padding-top: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+   padding-top: 16px;
+  }
+}

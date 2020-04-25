@@ -5,29 +5,35 @@
 @import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
-  min-height: 52px;
+  /*min-height: 52px;*/
   max-width: 1184px;
   position: relative;
   display: flex;
   justify-content: space-between;
-  margin: 28px auto 0;
+  /*margin: 28px auto 0;*/
+  margin: 0 auto;
   align-items: flex-end;
 }
 
 @media screen and (max-width: 1280px) {
   .header {
-   margin: 32px 39px 0;
+   /*margin: 32px 39px 0;*/
+   /*margin: 0 39px;*/
+   width: calc(100% - 78px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-   margin: 28px 15px 0;
+   /*margin: 28px 15px 0;*/
+   /*margin: 0 15px;*/
+   width: calc(100% - 30px);
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
-   margin: 16px 7px 0;
+   /*margin: 0 7px;*/
+   width: calc(100% - 14px);
   }
 }

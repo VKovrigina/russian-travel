@@ -10,7 +10,7 @@
   text-rendering: optimizeLegibility;
   color: #fff;
   text-align: left;
-  max-height: max-content;
+  /*max-height: max-content;*/
   align-self: end;
 }
 

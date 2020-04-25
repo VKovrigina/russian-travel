@@ -8,12 +8,38 @@
   text-align: center;
   max-width: 560px;
   padding: 5px 0 0;
-  margin: 0;
+  margin: 245px 0 0 0;
+}
+
+/*@media screen and (max-width: 620px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}*/
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    margin: 195px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    margin: 115px 0 0 0;
+  }
 }
 
 @media screen and (max-width: 620px) {
   .cover__title {
+    margin: 111px 0 0 0;
     font-size: 32px;
     line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    margin: 33px 0 0 0;
   }
 }
