@@ -9,6 +9,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   padding-top: 28px;
+  min-width: 320px;
 }
 
 div, h1, h2, header, section, main, footer {
