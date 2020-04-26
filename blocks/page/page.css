@@ -11,10 +11,10 @@
   padding-top: 28px;
   min-width: 320px;
 }
-/*
+
 div, h1, h2, header, section, main, footer {
   border: green 1px solid;
-}*/
+}
 
 @media screen and (max-width: 1280px) {
   .page {
