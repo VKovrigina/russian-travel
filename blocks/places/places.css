@@ -1,20 +1,17 @@
 .places {
   position: relative;
   margin: 0 148px;
-  /*width: calc(100% - 294px);*/
   margin-top: 94px;
 }
 
 @media screen and (max-width: 1200px) {
   .places {
-    /*width: calc(100% - 96px);*/
     margin: 115px 48px 0;
   }
 }
 
 @media screen and (max-width: 1000px) {
   .places {
-    /*width: calc(100% - 30px);*/
     margin: 80px 24px 0;
   }
 }

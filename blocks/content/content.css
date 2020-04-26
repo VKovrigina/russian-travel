@@ -7,10 +7,3 @@
   align-items: center;
   flex-direction: column;
 }
-/*
-@media screen and (max-width: 1024px) {
-  .content {
-   margin: 0 auto 0;
-   max-width: 928px;
-  }
-}*/

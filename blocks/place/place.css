@@ -4,20 +4,14 @@
 @import url(./__link/place__link.css);
 @import url(./__image/place__image.css);
 @import url(./__paragraph/place__paragraph.css);
+@import url(./__paragraphs/place__paragraphs.css);
 
 .place {
   display: grid;
-  /*grid-template-columns: repeat(2, 1fr);*/
   grid-template-columns:  minmax(460px,1fr) minmax(484px, 1fr);
-  /*grid-template-rows: repeat(2, auto);*/
-  grid-row-gap: 40px;
-  grid-column-gap: 14px;
+  grid-row-gap: 48px;
+  grid-column-gap: 40px;
   margin-bottom: 84px;
-  /*max-height: 660px;*/
-  /*grid-template-areas:
-    "title website"
-    "img paragraph_top"
-    "img paragraph_bottom"*/
 
 }
 
@@ -40,7 +34,6 @@
 @media screen and (max-width: 760px) {
   .place {
     grid-template-columns:  minmax(320px,1fr);
-    /*grid-template-columns:  repeat(1, 100%);*/
     grid-row-gap: 32px;
   }
 }

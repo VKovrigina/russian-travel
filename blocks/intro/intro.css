@@ -8,26 +8,26 @@
   max-width: 690px;
   position: relative;
   margin: 93px 148px 0;
-  /*margin: 93px 442px 0 148px; */
   align-self: flex-start;
   color: #fff;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1124px) {
   .intro {
-   margin: 93px 0 6px 10px;
+   margin: 93px 48px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-   margin: 93px 0 0 12;
+   margin: 93px 24px 0;
+   align-self: center;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   .intro {
-   margin: 64px /*5px*/ 0 0;
+   margin: 64px 16px 0;
   }
 }
 
